@@ -1,12 +1,8 @@
-let a 
-let b
-
+const a=5
 function myFn(){
-    let b
-    a=true 
-    b=10
-    console.log(b)
+function innerFn(){
+    console.log(a)
+}
+innerFn()
 }
 myFn()
-console.log(a)
-console.log(b)
