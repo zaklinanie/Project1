@@ -1,5 +1,12 @@
-function printMyName(){
-    console.log('Ann')
+let a 
+let b
+
+function myFn(){
+    let b
+    a=true 
+    b=10
+    console.log(b)
 }
-console.log('start')
-setTimeout(printMyName, 10000)
+myFn()
+console.log(a)
+console.log(b)
